@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                poppins: ['Poppins', 'sans-serif'],
+                questrial: ['Questrial', 'sans-serif'],
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body class="bg-white bg-cover bg-center bg-no-repeat min-h-screen">
+    <nav class = "flex flex-row justify-between items-center h-[17vh] px-10 font-semibold">
+        <a href="index.html">
+            <div class="text-4xl font-poppins text-cyan-500">Rogelio Kenny Arisandi</div>
+        </a>
+
+        <ul class = "font-poppins flex gap-8 text-black text-xl">
+            <li><a href="profile.html" class = "hover:bg-cyan-200  px-9 py-2 rounded-full">Profile</a></li>
+            <li><a href="hometown.html" class = "hover:bg-cyan-200 px-9 py-2 rounded-full">Hometown</a></li>
+            <li><a href="hometown.html" class = "hover:bg-cyan-200  px-9 py-2 rounded-full">Food</a></li>
+            <li><a href="hometown.html" class = "hover:bg-cyan-200 px-9 py-2 rounded-full">Tourist</a></li>
+        </ul>
+    </nav>
+    <section class="h-auto pt-12 font-questrial pb-2 bg-gray-50">
+
+        <div class="pt-12 pb-12 bg-gray-50">
+          <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:text-center space-y-5 sm:space-y-4">
+              <p class="text-base leading-6 text-sky-500 font-semibold tracking-wide uppercase">Get to know more</p>
+                <h2 class="text-6xl font-bold tracking-tight ">About me</h2>
+            </div>
+            <div class = "flex flex-row items-center justify-center mt-12 gap-4">
+                <img src="assets/PFP2.jpg" class="w-64 rounded-lg">
+                <div class ="flex flex-row gap-4">
+                    <div class="p-4 flex flex-col items-center bg-white rounded-2xl border-2 border-gray-600 text-center">
+                        <img src="./assets/Profile.png" class = "w-12 h-12">
+                        <div class = "font-questrial flex flex-col gap-4">
+                            <h1 class = "font-semibold text-xl">Bio</h1>
+                            <div class ="flex flex-col items-start">
+                                <p class = "font-semibold">Name:</p>
+                                <p class = "text-xl">Rogelio Kenny Arisandi</p>
+                            </div>
+                            <div class ="flex flex-col items-start">
+                                <p class = "font-semibold">Birthdate:</p>
+                                <p class = "text-xl">2nd of June 2005</p>
+                            </div>
+                            <div class ="flex flex-col items-start">
+                                <p class = "font-semibold">Birthdate:</p>
+                                <p class = "text-xl">2nd of June 2005</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 flex flex-col items-center bg-white rounded-2xl border-2 border-gray-600 text-center">
+                        <img src="./assets/education.png" class = "w-12 h-12">
+                        <div class = "font-questrial flex flex-col gap-4">
+                            <h1 class = "font-semibold text-xl">Education</h1>
+                            <div class ="flex flex-col items-start">
+                                <p class = "text-lg">Sepuluh Nopember<br>Institute of Technology <br>Informatics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class = "font-questrial bg-gray-50">
+        <div class = " w-full bg-gradient-to-r bottom-0 from-teal-400 to-sky-500 flex flex-col items-center px-8 py-4">
+            <h1 class = "text-white text-2xl">Explore my</h1>
+            <h1 class = "text-white text-6xl font-semibold">Experience</h1>
+        </div>
+        <div class="mt-16">
+            <ul class="md:grid md:grid-cols-2 gap-8 md:gap-10">
+                <li>
+                  <div class="flex bg-white shadow-sm rounded-xl p-5">
+                    <div class="flex-shrink-0">
+                        <img src="./assets/Schematics-Logo.png" alt="Tailwind Icon" class="h-12 w-auto">
+                    </div>
+                    <div class="ml-4">
+                      <h5 class="text-xl leading-6 font-medium text-gray-900"><a href="https://schematics-its.com" target="_blank" class="hover:underline hover:text-sky-400">Schematics Game Development Staff</a></h5>
+                      <p class ="font-semibold mt-2">March 2024 - Now</p>
+                      <p class="mt-2 text-base leading-6 text-gray-700">
+                        Developing a Game called Try To Escape for the NLC Competition held by Schematics ITS, using Unity and C#, where i develop some puzzle for the games
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="flex bg-white shadow-sm rounded-xl p-5">
+                    <div class="flex-shrink-0">
+                        <img src="./assets/Logo ITS.png" alt="Tailwind Icon" class="h-12 w-auto">
+                    </div>
+                    <div class="ml-4">
+                      <h5 class="text-xl leading-6 font-medium text-gray-900"><a href="https://schematics-its.com" target="_blank" class="hover:underline hover:text-sky-400">Department Buddy of Informatics ITS</a></h5>
+                      <p class ="font-semibold mt-2">July 2024 - Now</p>
+                      <p class="mt-2 text-base leading-6 text-gray-700">
+                        Assisting International exchange students with academic and daily activites. Attending as a mentor for the Student Exchange Campus tour and Departmen Tour.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="flex bg-white shadow-sm rounded-xl p-5">
+                    <div class="flex-shrink-0">
+                        <img src="./assets/Jagoteknik.jpeg" alt="Tailwind Icon" class="h-12 w-auto">
+                    </div>
+                    <div class="ml-4">
+                      <h5 class="text-xl leading-6 font-medium text-gray-900"><a href="https://www.jagoteknik.id" target="_blank" class="hover:underline hover:text-sky-400">Jagoteknik Teaching Staff</a></h5>
+                      <p class ="font-semibold mt-2">July 2024 - Now</p>
+                      <p class="mt-2 text-base leading-6 text-gray-700">
+                        Teaching Staff for Jagoteknik, a lesson class for ITS students to learn about Calculus, Fundamental Programming, Diffrential Equation, etc.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="flex bg-white shadow-sm rounded-xl p-5">
+                    <div class="flex-shrink-0">
+                        <img src="./assets/Logo ITS.png" alt="Tailwind Icon" class="h-12 w-auto">
+                    </div>
+                    <div class="ml-4">
+                      <h5 class="text-xl leading-6 font-medium text-gray-900"><a href="https://schematics-its.com" target="_blank" class="hover:underline hover:text-sky-400">IUP Fundamental Programming Teaching Assistant</a></h5>
+                      <p class ="font-semibold mt-2">August 2024 - Now</p>
+                      <p class="mt-2 text-base leading-6 text-gray-700">
+                        Teaching Assistant for the Fundamental Programming Course in Informatics ITS.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+        </div>
+    </section>
+</body>
+</html>
+
+<!-- <div class="py-5 px-5 flex flex-row gap-8 justify-center items-start bg-cyan-200 
+        rounded-xl mx-4 md:mx-8 lg:mx-16 min-h-64">
+            <img src="assets/PFP2.jpg" class="w-64 rounded-lg">
+            <div class ="flex flex-col gap-4">
+                <div class ="flex flex-col">
+                    <p class = "font-poppins font-semibold">Name</p>
+                    <p class = "text-xl">Rogelio Kenny Arisandi</p>
+                </div>
+                <div class ="flex flex-col">
+                    <p class = "font-poppins font-semibold">NRP</p>
+                    <p class = "text-xl">5025231074</p>
+                </div>
+            </div>
+        </div> -->

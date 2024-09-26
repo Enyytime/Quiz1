@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                poppins: ['Poppins', 'sans-serif'],
+                questrial: ['Questrial', 'sans-serif'],
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body class="bg-white bg-cover bg-center bg-no-repeat min-h-screen">
+  <nav class = "flex flex-row justify-between items-center h-[17vh] px-10 font-semibold">
+    <a href="index.html">
+        <div class="text-4xl font-poppins text-cyan-500">Rogelio Kenny Arisandi</div>
+    </a>
+
+    <ul class = "font-poppins flex gap-8 text-black text-xl">
+        <li><a href="profile.html" class = "hover:bg-cyan-200  px-9 py-2 rounded-full">Profile</a></li>
+        <li><a href="hometown.html" class = "hover:bg-cyan-200 px-9 py-2 rounded-full">Hometown</a></li>
+        <li><a href="food.html" class = "hover:bg-cyan-200  px-9 py-2 rounded-full">Food</a></li>
+        <li><a href="tourist.html" class = "hover:bg-cyan-200 px-9 py-2 rounded-full">Tourist</a></li>
+    </ul>
+  </nav> 
+  <section class="mt-6 bg-gradient-to-r bottom-0 from-teal-400 to-sky-500">
+    <div class="slider relative w-full h-96 overflow-hidden">
+        <div class="mt-6 item absolute w-[40rem] h-80 bg-white rounded-lg p-5 transition-all duration-500 left-1/2 transform -translate-x-1/2 top-0 flex justify-center items-center">
+          <img src="./assets/Jakarta1.jpeg" class="w-[37rem] h-[18rem] rounded-lg">
+        </div>
+        <div class="mt-6 item absolute w-[40rem] h-80 bg-white rounded-lg p-5 transition-all duration-500 left-1/2 transform -translate-x-1/2 top-0 flex justify-center items-center">
+          <img src="./assets/Bundaran HI.jpg" class="w-[37rem] h-[18rem] rounded-lg">
+        </div>
+        <div class="mt-6 item absolute w-[40rem] h-80 bg-white rounded-lg p-5 transition-all duration-500 left-1/2 transform -translate-x-1/2 top-0 flex justify-center items-center">
+          <img src="./assets/Monas.jpg" class="w-[37rem] h-[18rem] rounded-lg">
+        </div>
+        <button id="prev" class="absolute top-[40%] left-[50px] text-white bg-transparent border-none text-6xl font-mono font-bold">&lt;</button>
+        <button id="next" class="absolute top-[40%] right-[50px] text-white bg-transparent border-none text-6xl font-mono font-bold">&gt;</button>
+    </div>
+  </section>
+  <section class="h-auto pt-12 font-questrial pb-2 bg-gray-50">
+
+    <div class="pt-3 pb-12 bg-gray-50">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:text-center space-y-5 sm:space-y-4">
+          <p class="text-base leading-6 text-sky-500 font-semibold tracking-wide uppercase">My Hometown</p>
+            <h2 class="text-6xl font-bold tracking-tight ">Jakarta</h2>
+        </div>
+        <div class = "pt-6">
+          <h1 class = "text-lg text-gray-700">Jakarta, the capital city of Indonesia. It's a busy metropolis known for it's rich culture and heritage due to
+            everyone from every place in indonesia has an interest to have a career here, dynamic economy, and it's significant
+            historical landmark. Jakarta is the largest city in Southeast Asia, home to over 10 million people, with a greater metropolitan 
+            area (Jabodetabek) housing more than 30 million residents, making it one of the world's largest urban agglomerations. It is a melting pot of ethnicities, including Javanese, 
+            Sundanese, Chinese Indonesians, and Betawi, reflecting Indonesia's motto of "Unity in Diversity." 
+            The city is known for its iconic landmarks like the National Monument (Monas), the colonial-era Kota Tua, 
+            and the Istiqlal Mosque, as well as its modern skyline filled with high-rises, luxury hotels, and vast shopping malls
+          </h1>
+        </div>
+      </div>
+    </div>
+</section>
+  <script src = "hometown.js"></script>
+</body>
+</html>
+
+<!-- <div class="py-5 px-5 flex flex-row gap-8 justify-center items-start bg-cyan-200 
+        rounded-xl mx-4 md:mx-8 lg:mx-16 min-h-64">
+            <img src="assets/PFP2.jpg" class="w-64 rounded-lg">
+            <div class ="flex flex-col gap-4">
+                <div class ="flex flex-col">
+                    <p class = "font-poppins font-semibold">Name</p>
+                    <p class = "text-xl">Rogelio Kenny Arisandi</p>
+                </div>
+                <div class ="flex flex-col">
+                    <p class = "font-poppins font-semibold">NRP</p>
+                    <p class = "text-xl">5025231074</p>
+                </div>
+            </div>
+        </div> -->

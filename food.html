@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                poppins: ['Poppins', 'sans-serif'],
+                questrial: ['Questrial', 'sans-serif'],
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body class="bg-white bg-cover bg-center bg-no-repeat min-h-screen">
+    <nav class = "flex flex-row justify-between items-center h-[17vh] px-10 font-semibold">
+        <a href="index.html">
+            <div class="text-4xl font-poppins text-cyan-500">Rogelio Kenny Arisandi</div>
+        </a>
+
+        <ul class = "font-poppins flex gap-8 text-black text-xl">
+            <li><a href="profile.html" class = "hover:bg-cyan-200  px-9 py-2 rounded-full">Profile</a></li>
+            <li><a href="hometown.html" class = "hover:bg-cyan-200 px-9 py-2 rounded-full">Hometown</a></li>
+            <li><a href="food.html" class = "hover:bg-cyan-200  px-9 py-2 rounded-full">Food</a></li>
+            <li><a href="tourist.html" class = "hover:bg-cyan-200 px-9 py-2 rounded-full">Tourist</a></li>
+        </ul>
+    </nav>
+    <section class="pt-12 font-questrial bg-gray-50">
+      <div class="lg:text-center space-y-5 sm:space-y-4">
+        <p class="text-base leading-6 text-sky-500 font-semibold tracking-wide uppercase">All kinds of food in</p>
+          <h2 class="text-6xl font-bold tracking-tight ">Jakarta</h2>
+      </div>
+      <div class="mt-16">
+        <ul class="md:grid md:grid-cols-2 gap-8 md:gap-10">
+            <li>
+              <div class="flex items-center shadow-sm rounded-xl p-5">
+                <img src = "assets/BuburAyam.jpg" class = "w-[18rem] h-48 rounded-lg hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300">
+                <div class="ml-4">
+                  <h5 class="text-xl leading-6 font-medium text-gray-900"><a target="_blank" class="hover:underline hover:text-sky-400">Bubur Ayam</a></h5>
+                  <p class="mt-2 text-base leading-6 text-gray-700">
+                    This is the epitome of all porridges on the face of this earth! It is a porridge loaded with fried crackers, fried soybeans, tofu, and finely shredded chicken. 
+                    Adding chicken broth takes it to a new level in terms of flavor. Talk about an insatiable appetite!
+                  </p>
+                </div>
+              </div> 
+            </li>
+            <li>
+              <div class="flex items-center bg-white shadow-sm rounded-xl p-5">
+                <img src = "assets/KerakTelor.jpg" class = "w-[18rem] h-48 rounded-lg hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300">
+                <div class="ml-4">
+                  <h5 class="text-xl leading-6 font-medium text-gray-900"><a target="_blank" class="hover:underline hover:text-sky-400">Kerak Telor</a></h5>
+                  <p class="mt-2 text-base leading-6 text-gray-700">
+                    Kerak Telor is the native Betawi traditional dish. It is a crispy omelette made from eggs and glutinous rice, cooked on charcoal. 
+                    It is then topped with a scrumptious serving of crunchy fried shallots and shredded coconut. Yummie!. This is the true traditional food
+                    from jakarta
+                  </p>
+                </div>
+              </div> 
+            </li>
+            <li>
+              <div class="flex items-center bg-white shadow-sm rounded-xl p-5">
+                <img src = "assets/Martabak.jpeg" class = "w-[18rem] h-48 rounded-lg hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300">
+                <div class="ml-4">
+                  <h5 class="text-xl leading-6 font-medium text-gray-900"><a target="_blank" class="hover:underline hover:text-sky-400">Martabak (my personal favorite)</a></h5>
+                  <p class="mt-2 text-base leading-6 text-gray-700">
+                    Martabak is the Indonesian version of a pancake stuffed with tons of toppings like Toblerone, peanuts, Nutella. The pancake is folded in half and cut through evenly such that the toppings remain in the middle, 
+                    causing the flavors to explode and leaving you in a state of contentment, making you savor every bite of this dessert.
+                  </p>
+                </div>
+              </div> 
+            </li>
+            <li>
+              <div class="flex items-center bg-white shadow-sm rounded-xl p-5">
+                <img src = "assets/Bakso.jpeg" class = "w-[18rem] h-48 rounded-lg hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300">
+                <div class="ml-4">
+                  <h5 class="text-xl leading-6 font-medium text-gray-900"><a class="hover:underline hover:text-sky-400">Bakso</a></h5>
+                  <p class="mt-2 text-base leading-6 text-gray-700">
+                    Bakso translates to meatballs. It can be served with egg noodles, flat noodles, or vermicelli. 
+                    Vegetables are tossed in to make it better. Then a broth is added, making it a fragrant mix of both noodles and soup. 
+                    It is sometimes served inside a coconut and topped with other sauces for visual appeal.
+                  </p>
+                </div>
+              </div> 
+            </li>
+        </ul>
+      </div>
+    </section>
+</body>
+</html>

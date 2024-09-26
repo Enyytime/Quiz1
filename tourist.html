@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                poppins: ['Poppins', 'sans-serif'],
+                questrial: ['Questrial', 'sans-serif'],
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body class="bg-white bg-cover bg-center bg-no-repeat min-h-screen">
+    <nav class = "flex flex-row justify-between items-center h-[17vh] px-10 font-semibold">
+        <a href="index.html">
+            <div class="text-4xl font-poppins text-cyan-500">Rogelio Kenny Arisandi</div>
+        </a>
+
+        <ul class = "font-poppins flex gap-8 text-black text-xl">
+            <li><a href="profile.html" class = "hover:bg-cyan-200  px-9 py-2 rounded-full">Profile</a></li>
+            <li><a href="hometown.html" class = "hover:bg-cyan-200 px-9 py-2 rounded-full">Hometown</a></li>
+            <li><a href="food.html" class = "hover:bg-cyan-200  px-9 py-2 rounded-full">Food</a></li>
+            <li><a href="tourist.html" class = "hover:bg-cyan-200 px-9 py-2 rounded-full">Tourist</a></li>
+        </ul>
+    </nav>
+    <section class="pt-12 font-questrial bg-gray-50">
+      <div class="lg:text-center space-y-5 sm:space-y-4">
+        <p class="text-base leading-6 text-sky-500 font-semibold tracking-wide uppercase">must visit place in</p>
+          <h2 class="text-6xl font-bold tracking-tight ">Jakarta</h2>
+      </div>
+      <div class="mt-16">
+        <ul class="md:grid md:grid-cols-2 gap-8 md:gap-10">
+            <li>
+              <div class="flex items-center shadow-sm rounded-xl p-5">
+                <img src = "assets/Pulau Seribu.jpg" class = "w-[18rem] h-48 rounded-lg hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300">
+                <div class="ml-4">
+                  <h5 class="text-xl leading-6 font-medium text-gray-900"><a target="_blank" class="hover:underline hover:text-sky-400">Kepulauan Seribu (Thousands Island)</a></h5>
+                  <p class="mt-2 text-base leading-6 text-gray-700">
+                    Whether going for underwater expeditions from the different diving spots scattered across the islands or engaging in wildlife photography and bird watching 
+                    activities, Kepulauan Seribu has plenty of exciting activities in store. The flora and fauna of the Thousand Islands are most fascinating things to observe during your trip. 
+                  </p>
+                </div>
+              </div> 
+            </li>
+            <li>
+              <div class="flex items-center bg-white shadow-sm rounded-xl p-5">
+                <img src = "assets/Kota Tua.jpeg" class = "w-[18rem] h-48 rounded-lg hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300">
+                <div class="ml-4">
+                  <h5 class="text-xl leading-6 font-medium text-gray-900"><a target="_blank" class="hover:underline hover:text-sky-400">Kota Tua (Old City)</a></h5>
+                  <p class="mt-2 text-base leading-6 text-gray-700">
+                    Also known as Old Batavia, this relatively small area, covering 1.3 sq. km, was once the nation's most 
+                    important administrative and business center. Though not all buildings are well-preserved, it remains a charming tourist 
+                    attraction today that gives a peek into Jakarta's colonial history and culture. It is also known for its busy night market.
+                  </p>
+                </div>
+              </div> 
+            </li>
+            <li>
+              <div class="flex items-center bg-white shadow-sm rounded-xl p-5">
+                <img src = "assets/Monas.jpeg" class = "w-[18rem] h-48 rounded-lg hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300">
+                <div class="ml-4">
+                  <h5 class="text-xl leading-6 font-medium text-gray-900"><a target="_blank" class="hover:underline hover:text-sky-400">Monas (National Monument)</a></h5>
+                  <p class="mt-2 text-base leading-6 text-gray-700">
+                    The National Monument of Indonesia is a massive tower located at Merdeka Square's center. It will take you through the evolution of Indonesia's culture since 
+                    its pre-historic times, with many artifacts from each era. The historic structure also has an observation deck, the National History Museum, and the Hall of Independence.
+                  </p>
+                </div>
+              </div> 
+            </li>
+            <li>
+              <div class="flex items-center bg-white shadow-sm rounded-xl p-5">
+                <img src = "assets/Grand-Indonesia-Mall.jpg" class = "w-[18rem] h-48 rounded-lg hover:-rotate-3 group hover:scale-105 transition-all ease-out duration-300">
+                <div class="ml-4">
+                  <h5 class="text-xl leading-6 font-medium text-gray-900"><a class="hover:underline hover:text-sky-400">Grand Indonesia Mall</a></h5>
+                  <p class="mt-2 text-base leading-6 text-gray-700">
+                    Grand Indonesia Mall is a hub for entertainment, food, recreational and fun activities. It has top-class clothing brands and bookstores, 
+                    a miniature theme park, and arcade games for children. It also has a dancing fountain show at the fountain atrium at 2:00 PM, 5:00 PM and 8:00 PM every day.
+                  </p>
+                </div>
+              </div> 
+            </li>
+        </ul>
+      </div>
+    </section>
+</body>
+</html>
